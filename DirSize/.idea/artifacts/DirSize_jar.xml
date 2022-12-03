@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DirSize:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DirSize_jar</output-path>
+    <root id="archive" name="DirSize.jar">
+      <element id="module-output" name="DirSize" />
+    </root>
+  </artifact>
+</component>

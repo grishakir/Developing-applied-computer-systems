@@ -17,9 +17,9 @@ public class Main {
     }
     public static void main(String[] args) {
         try {
-            File file = new File(args[1]);
+            File file = new File(args[0]);
             long size = folderSize(file);
-            System.out.println(args[1] + " --------- " + size + " bytes");
+            System.out.println(args[0] + " --------- " + size + " bytes");
         } catch (NullPointerException e) {
             System.out.println("Dir error");
         } catch (ArrayIndexOutOfBoundsException e) {
